@@ -45,8 +45,7 @@ Customer-Satisfaction-Analysis/
 ├── Customer_Satisfaction_Dashboard.xlsx
 └── data/
     └── raw_customer_satisfaction.xlsx
-To refresh the Power Query workflow
-Download the complete Customer-Satisfaction-Analysis project folder.
+To refresh the Power Query workflow download the complete Customer-Satisfaction-Analysis project folder.
 Open Customer_Satisfaction_Dashboard.xlsx.
 Go to Data → Get Data → Launch Power Query Editor.
 In Power Query, select Home → Manage Parameters.
