@@ -23,6 +23,7 @@ Tools & Technologies:
 •	PivotTables
 •	PivotCharts
 •	XLOOKUP
+•	VLOOKUP
 •	Excel formulas
 •	Excel functions
 •	Data cleaning and transformation
@@ -102,6 +103,7 @@ File	Descriptions:
 •	Power_Query_Data_Cleaning.pdf -	Written report summarising the data cleaning process. 
 •	generate_customer_data.py - Python script to produce raw data.
 •	product_purchase_amount.py - Python script to generate correct purchase amounts for South Africa in 2026.
+•	department.py - Python script to generate the lookup table to do VLOOKUP to showcase the department for each product.
 •	screenshots/dashboard.png - Screenshot of the completed interactive dashboard.
 •	screenshots/power-query.png -	Screenshot demonstrating the Power Query data-preparation process.
 
@@ -113,6 +115,7 @@ This project demonstrates practical experience in:
 •	Excel data analysis
 •	Power Query
 •	XLOOKUP
+•	VLOOKUP
 •	PivotTables
 •	PivotCharts
 •	KPI development
