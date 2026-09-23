@@ -55,7 +55,7 @@ Click OK.
 Return to Excel and select Data → Refresh All.
 
 Power Query will automatically locate the raw data using:
-pProjectFolder\data\raw_customer_satisfaction.xlsx
+pProjectFolder\data\customer_satisfaction_raw.xlsx
 
 Dashboard:
 The main dashboard provides a high-level view of customer satisfaction and purchasing performance.
