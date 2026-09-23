@@ -26,6 +26,7 @@ Tools & Technologies:
 •	VLOOKUP
 •	Excel formulas
 •	Excel functions
+•	Filters
 •	Data cleaning and transformation
 •	Data validation and quality checks
 •	Dashboard development
