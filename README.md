@@ -127,7 +127,8 @@ File	Descriptions:
 •	product_purchase_amount.py - Python script to generate correct purchase amounts for South Africa in 2026.
 •	department.py - Python script to generate the lookup table to do VLOOKUP to showcase the department for each product.
 •	screenshots/dashboard.png - Screenshot of the completed interactive dashboard.
-•	screenshots/power-query.png -	Screenshot demonstrating the Power Query data-preparation process.
+•	screenshots/power-query.png - Screenshot demonstrating the Power Query data-preparation process
+•	screenshots/extra-analysis – Screenshot demonstrating the additional analysis
 
 Skills Demonstrated:
 This project demonstrates practical experience in:
