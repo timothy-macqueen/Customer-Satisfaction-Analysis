@@ -1,11 +1,11 @@
 # Customer-Satisfaction-Analysis
 An Excel-based customer satisfaction analysis project demonstrating data cleaning, transformation, exploratory analysis, KPI development, PivotTables, interactive dashboards, and business insight generation.
 
-Project Overview
+Project Overview:
 This project presents an interactive Customer Satisfaction Analysis Dashboard developed in Microsoft Excel. The objective was to clean, transform, analyse, and visualise customer survey data to identify patterns in customer satisfaction, purchasing behaviour, and recommendation rates.
 The project demonstrates an end-to-end data analysis workflow, from data preparation and quality validation through to dashboard development and business reporting.
 
-Objectives
+Objectives:
 •	Analyse overall customer satisfaction.
 •	Measure the proportion of customers who would recommend the business.
 •	Analyse revenue across products and departments.
@@ -14,7 +14,7 @@ Objectives
 •	Perform data quality checks to identify potential inconsistencies.
 •	Present findings through an interactive Excel dashboard.
 
-Tools & Technologies
+Tools & Technologies:
 •	Microsoft Excel
 •	Power Query
 •	Python
@@ -30,12 +30,12 @@ Tools & Technologies
 •	Dashboard development
 •	Data visualisation
 
-Data Preparation
+Data Preparation:
 Data privacy: This project uses entirely synthetic data generated with Python and Faker. It does not contain real customer or personally identifiable information.
 Power Query was used to prepare the dataset before analysis. The data-cleaning workflow included transforming and standardising fields, checking data types, preparing analytical fields, and creating additional variables required for reporting.
 The cleaned dataset was then used to build PivotTables, PivotCharts, KPI calculations, and the interactive dashboard.
 
-Dashboard
+Dashboard:
 The main dashboard provides a high-level view of customer satisfaction and purchasing performance.
 Key Performance Indicators
 The dashboard includes four headline KPIs:
@@ -44,7 +44,7 @@ The dashboard includes four headline KPIs:
 •	Recommendation Rate
 •	Total Revenue
 
-Dashboard Visualisations
+Dashboard Visualisations:
 The dashboard includes the following analyses:
 1.	Average Satisfaction by Top 10 Products
 2.	Average Satisfaction by Bottom 10 Products
@@ -57,7 +57,7 @@ Interactive slicers allow the analysis to be filtered by:
 •	Province
 •	Department
 
-Additional Data Quality Checks
+Additional Data Quality Checks:
 Additional analysis was performed separately from the main dashboard to assess the consistency and reliability of the survey data.
 •	Average Satisfaction by Age Group
 •	Average Purchase by Gender
@@ -65,17 +65,17 @@ Additional analysis was performed separately from the main dashboard to assess t
 •	Recommendation Distribution
 This analysis compares the percentage recommendation by customers with number of respondents to identify whether the majority of customers recommended the products and services of the e-commerce store. 
 
-Rating–Comment Agreement
+Rating–Comment Agreement:
 A rating–comment agreement check was used to assess whether customer satisfaction ratings were consistent with the sentiment expressed in customer comments.
 These checks help demonstrate that the analysis considered data quality and validation, rather than focusing solely on visualisation.
 
-Satisfaction × Sentiment
+Satisfaction × Sentiment:
 This analysis compares numerical satisfaction ratings with customer sentiment to identify whether the two measures show broadly consistent patterns.
 Interactive slicers allow the analysis to be filtered by:
 •	Province
 •	Department
 
-Key Findings
+Key Findings:
 The final findings will be based on the completed dashboard and calculated results.
 •	Overall Average Satisfaction: 3 out of 5.
 •	Recommendation: 50% of respondents indicated that they would recommend the business.
@@ -84,19 +84,19 @@ The final findings will be based on the completed dashboard and calculated resul
 •	Product Performance: The Nikon Mirrorless Camera was the highest selling product and instant noodles were the lowest selling product. 
 These findings demonstrate how raw customer survey data can be transformed into concise, decision-supporting insights.
 
-Recommendations
+Recommendations:
 •	Investigate products with below-average satisfaction. 
 •	Review customer feedback for recurring complaints. 
 •	Focus marketing on high-performing products. 
 •	Monitor provinces with lower satisfaction to identify service improvements.
 
-Project Workflow
+Project Workflow:
 The project followed an end-to-end analytical workflow:
 Raw Data → Power Query → Cleaned Data → KPI Calculations → PivotTables → PivotCharts → Dashboard → Data Quality Checks → Business Insights
 
 Project Files
 
-File	Description
+File	Description:
 
 Customer_Satisfaction_Dashboard.xlsx - Complete Excel workbook containing the cleaned data, calculations, PivotTables, charts, dashboard, and data-quality analysis
 customer_satisfaction_raw.xlsx -	Excel workbook containing the raw data to be inputted into Power Query. 
@@ -107,7 +107,7 @@ screenshots/dashboard.png - Screenshot of the completed interactive dashboard
 screenshots/power-query.png -	Screenshot demonstrating the Power Query data-preparation process
 screenshots/data-quality-checks.png - Screenshot of the data-quality analysis
 
-Skills Demonstrated
+Skills Demonstrated:
 This project demonstrates practical experience in:
 •	Data cleaning
 •	Data transformation
@@ -124,5 +124,5 @@ This project demonstrates practical experience in:
 •	Analytical interpretation
 •	Business reporting
 
-Conclusion
+Conclusion:
 This project demonstrates the ability to take a customer survey dataset through a structured data-analysis process and transform it into an interactive reporting solution. The combination of data preparation, analytical calculations, visualisation, and quality checks demonstrates practical Excel-based data analysis and reporting skills. 
