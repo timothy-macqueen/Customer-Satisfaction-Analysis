@@ -36,6 +36,28 @@ Data privacy: This project uses entirely synthetic data generated with Python an
 Power Query was used to prepare the dataset before analysis. The data-cleaning workflow included transforming and standardising fields, checking data types, preparing analytical fields, and creating additional variables required for reporting.
 The cleaned dataset was then used to build PivotTables, PivotCharts, KPI calculations, and the interactive dashboard.
 
+Power Query Setup
+The workbook uses a Power Query parameter called pProjectFolder to locate the raw data file without relying on the author's personal file path.
+
+The project folder should maintain the following structure:
+
+Customer-Satisfaction-Analysis/
+├── Customer_Satisfaction_Dashboard.xlsx
+└── data/
+    └── raw_customer_satisfaction.xlsx
+To refresh the Power Query workflow
+Download the complete Customer-Satisfaction-Analysis project folder.
+Open Customer_Satisfaction_Dashboard.xlsx.
+Go to Data → Get Data → Launch Power Query Editor.
+In Power Query, select Home → Manage Parameters.
+Select pProjectFolder.
+Set the parameter value to the location of the downloaded Customer-Satisfaction-Analysis folder on your computer.
+Click OK.
+Return to Excel and select Data → Refresh All.
+
+Power Query will automatically locate the raw data using:
+pProjectFolder\data\raw_customer_satisfaction.xlsx
+
 Dashboard:
 The main dashboard provides a high-level view of customer satisfaction and purchasing performance.
 Key Performance Indicators
