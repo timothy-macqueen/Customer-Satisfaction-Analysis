@@ -98,14 +98,14 @@ Project Files
 
 File	Description:
 
-Customer_Satisfaction_Dashboard.xlsx - Complete Excel workbook containing the cleaned data, calculations, PivotTables, charts, dashboard, and data-quality analysis
+Customer_Satisfaction_Dashboard.xlsx - Complete Excel workbook containing the cleaned data, calculations, PivotTables, charts, dashboard, and data-quality analysis.
 customer_satisfaction_raw.xlsx -	Excel workbook containing the raw data to be inputted into Power Query. 
 Power_Query_Data_Cleaning.pdf -	Written report summarising the data cleaning process. 
-generate_customer_data.py - Python script to produce raw data
-product_purchase_amount.py - Python script to generate correct purchase amounts for South Africa in 2026
-screenshots/dashboard.png - Screenshot of the completed interactive dashboard
-screenshots/power-query.png -	Screenshot demonstrating the Power Query data-preparation process
-screenshots/data-quality-checks.png - Screenshot of the data-quality analysis
+generate_customer_data.py - Python script to produce raw data.
+product_purchase_amount.py - Python script to generate correct purchase amounts for South Africa in 2026.
+screenshots/dashboard.png - Screenshot of the completed interactive dashboard.
+screenshots/power-query.png -	Screenshot demonstrating the Power Query data-preparation process.
+screenshots/data-quality-checks.png - Screenshot of the data-quality analysis.
 
 Skills Demonstrated:
 This project demonstrates practical experience in:
