@@ -117,10 +117,11 @@ If comments were assigned to respondents at random, the expected agreement would
 (65.1% Positive × 40.1% Satisfied/Very Satisfied) + (11.7% Neutral × 19.5% Neutral) + (23.2% Negative × 40.4% Dissatisfied/Very Dissatisfied) ≈ **37.8%**
 The percentages are shares of the 7,710 commented respondents. See below:
 
-Rating group	                  Calculation	                            Share
-Satisfied + Very Satisfied	     (1,518 + 1,576) ÷ 7,710 = 3,094 ÷ 7,710	40.1%
-Neutral	                          1,500 ÷ 7,710	                            19.5%
-Dissatisfied + Very Dissatisfied (1,562 + 1,554) ÷ 7,710 = 3,116 ÷ 7,710	40.4%
+| Rating group | Calculation | Share |
+| --- | --- | --- |
+| Satisfied + Very Satisfied | (1,518 + 1,576) ÷ 7,710 = 3,094 ÷ 7,710 | 40.1% |
+| Neutral | 1,500 ÷ 7,710 | 19.5% |
+| Dissatisfied + Very Dissatisfied | (1,562 + 1,554) ÷ 7,710 = 3,116 ÷ 7,710 | 40.4% |
 
 **Sentiment method**
 An initial keyword-based rule misclassified many comments (e.g. "Product was disappointing" and "Delivery delayed" were labelled Neutral). Because the survey uses a small set of repeated phrases, each distinct comment was labelled manually (Positive, Negative or Neutral) in a lookup table (`Sentiment_Map`) and merged into the data in Power Query. New phrases after a refresh must be added to the map, otherwise they return null.
