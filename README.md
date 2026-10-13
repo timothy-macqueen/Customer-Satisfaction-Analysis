@@ -143,7 +143,7 @@ An initial keyword-based rule misclassified many comments (e.g. "Product was dis
 •   Sentiment was spread evenly across ratings: Positive comments made up 65.1% of all comments, including 66.0% of Very Dissatisfied and 64.5% of Very Satisfied      respondents. Very Satisfied respondents were slightly more likely to leave a Negative comment (24.6%) than Very Dissatisfied respondents (22.0%).
 
 **Implication** 
-Very Dissatisfied customers left comments such as "Excellent product" and "Highly recommend". This suggests the free-text field is not meaningfully linked to ratings in this dataset. This dataset is synthetic (generated with Python). Comments were assigned independently of satisfaction ratings, so agreement is close to what chance would produce. In a real dataset, this result would signal a data quality problem worth investigating. The Rating-Comment Agreement KPI therefore demonstrates a data validation check rather than a customer insight.
+Very Dissatisfied customers left comments such as "Excellent product" and "Highly recommend". This suggests the free-text field is not meaningfully linked to ratings in this dataset. This dataset is synthetic (generated with Python). Comments were assigned independently of satisfaction ratings, so agreement is close to what chance would produce. In a real dataset, this result would signal a data quality problem worth investigating. The Rating-Comment Agreement KPI and Comment Sentiment by Satisfaction Rating therefore demonstrate data validation checks rather than customer insights.
 
 These findings demonstrate how raw customer survey data can be transformed into concise, decision-supporting insights.
 
