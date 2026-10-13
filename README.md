@@ -93,11 +93,46 @@ Rating–Comment Agreement:
 A rating–comment agreement check was used to assess whether customer satisfaction ratings were consistent with the sentiment expressed in customer comments.
 These checks help demonstrate that the analysis considered data quality and validation, rather than focusing solely on visualisation.
 
+## Data Notes
+
+**Rating-Comment Agreement**
+Compares the sentiment of each customer comment with the respondent's satisfaction rating.
+
+- Positive comment matches Satisfied / Very Satisfied
+- Neutral comment matches Neutral
+- Negative comment matches Dissatisfied / Very Dissatisfied
+- Anything else is a Mismatch
+- Respondents with no comment (637, 7.6%) are marked Not Applicable and excluded
+
+Agreement % = Match ÷ (Match + Mismatch) = 2,927 ÷ 7,710 = **38.0%**
+
+**Chance benchmark**
+If comments were assigned to respondents at random, the expected agreement would be:
+(65.1% Positive × 40.1% Satisfied/Very Satisfied) + (11.7% Neutral × 19.5% Neutral) + (23.2% Negative × 40.4% Dissatisfied/Very Dissatisfied) ≈ **37.8%**
+The percentages are shares of the 7,710 commented respondents. See below:
+
+Rating group	                  Calculation	                            Share
+Satisfied + Very Satisfied	     (1,518 + 1,576) ÷ 7,710 = 3,094 ÷ 7,710	40.1%
+Neutral	                          1,500 ÷ 7,710	                            19.5%
+Dissatisfied + Very Dissatisfied (1,562 + 1,554) ÷ 7,710 = 3,116 ÷ 7,710	40.4%
+
 Satisfaction × Sentiment:
 This analysis compares numerical satisfaction ratings with customer sentiment to identify whether the two measures showed broadly consistent patterns or a mismatch
 Interactive slicers allow the analysis to be filtered by:
 •	Province
 •	Department
+
+## Data Notes
+
+**Sentiment method**
+An initial keyword-based rule misclassified many comments (e.g. "Product was disappointing" and "Delivery delayed" were labelled Neutral). Because the survey uses a small set of repeated phrases, each distinct comment was labelled manually (Positive, Negative or Neutral) in a lookup table (`Sentiment_Map`) and merged into the data in Power Query. New phrases after a refresh must be added to the map, otherwise they return null.
+
+**Limitations**
+- Sentiment labels are my own judgement, so borderline phrases (e.g. "Packaging could improve") could be labelled differently.
+- Neutral comments count as a Mismatch against Satisfied and Dissatisfied ratings. This is a deliberate, strict rule.
+- The comment field appears unrelated to ratings (see findings), so agreement reflects the dataset, not customer behaviour.
+- All data is synthetic, so findings illustrate analysis methods rather than real customer behaviour.
+
 
 Key Findings:
 •   Satisfaction and revenue show limited alignment: Only 1 of the top 10 highest-revenue products also ranks in the top 10 for satisfaction. Notably, the Samsung 55-inch      Smart TV and Lenovo ThinkPad Laptop are both top-10 revenue earners despite ranking in the bottom 10 for customer satisfaction — a disconnect worth                         investigating further, as these products carry more commercial risk than their satisfaction scores suggest.
@@ -105,7 +140,11 @@ Key Findings:
 •	Average satisfaction sits at 3 out of 5, with only half of respondents saying they'd recommend the business
 •	The Northern Cape recorded the highest average satisfaction of any province
 •   The Nikon Mirrorless Camera was the top selling by units; instant noodles the lowest.
-•	Sentiment vs satisfaction: Only 14% of respondents'comments matched their given rating — most reviews were tagged Neutral regardless of whether the customer was Very       Dissatisfied or Very Satisfied, suggesting written feedback and star ratings capture different signals.
+•	Written comments and satisfaction ratings showed limited agreement: Only 38.0% of commented responses had sentiment matching the rating (blank comments            excluded). That is almost identical to the 37.8% expected if comments were assigned at random.
+•   Sentiment was spread evenly across ratings: Positive comments made up 65.1% of all comments, including 66.0% of Very Dissatisfied and 64.5% of Very Satisfied      respondents. Very Satisfied respondents were slightly more likely to leave a Negative comment (24.6%) than Very Dissatisfied respondents (22.0%).
+*% of commented responses. 7.6% of respondents left no comment, spread evenly across ratings.*
+
+**Implication: Very Dissatisfied customers left comments such as "Excellent product" and "Highly recommend". This suggests the free-text field is not meaningfully linked to ratings in this dataset. This dataset is synthetic (generated with Python). Comments were assigned independently of satisfaction ratings, so agreement is close to what chance would produce. In a real dataset, this result would signal a data quality problem worth investigating. The Rating-Comment Agreement KPI therefore demonstrates a data validation check rather than a customer insight.
 
 These findings demonstrate how raw customer survey data can be transformed into concise, decision-supporting insights.
 
