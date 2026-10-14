@@ -56,7 +56,7 @@ The Excel dashboard uses Power Query to load and transform the raw customer sati
 3. Navigate to Data → Get Data → Launch Power Query Editor.
 4. In Power Query Editor, select Home → Manage Parameters.
 5. Select pProjectFolder and update its value to the full local path of your downloaded Customer-Satisfaction-Analysis folder. For example: C:\Users\YourName\Documents\Customer-Satisfaction-Analysis. Do not include the data subfolder or the Excel filename in this parameter.
-6. Click OK, then return to Excel.
+6. Click Close & Load, then return to Excel.
 7. Select Data → Refresh All to refresh the queries and update the dashboard.
 
 **Subsequent refreshes**
