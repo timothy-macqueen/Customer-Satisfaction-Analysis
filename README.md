@@ -37,26 +37,32 @@ Data privacy: This project uses entirely synthetic data generated with Python an
 Power Query was used to prepare the dataset before analysis. The data-cleaning workflow included transforming and standardising fields, checking data types, preparing analytical fields, and creating additional variables required for reporting.
 The cleaned dataset was then used to build PivotTables, PivotCharts, KPI calculations, and the interactive dashboard.
 
-### Power Query Setup
-The workbook uses a Power Query parameter called pProjectFolder to locate the raw data file without relying on the author's personal file path.
-
-The project folder should maintain the following structure:
+### Project Structure
+Download the complete Customer-Satisfaction-Analysis project folder, keeping the dashboard and raw data in the following structure:
 
 Customer-Satisfaction-Analysis/
 ├── Customer_Satisfaction_Dashboard.xlsx
 └── data/
-    └── raw_customer_satisfaction.xlsx
-To refresh the Power Query workflow download the complete Customer-Satisfaction-Analysis project folder.
-Open Customer_Satisfaction_Dashboard.xlsx.
-Go to Data → Get Data → Launch Power Query Editor.
-In Power Query, select Home → Manage Parameters.
-Select pProjectFolder.
-Set the parameter value to the location of the downloaded Customer-Satisfaction-Analysis folder on your computer.
-Click OK.
-Return to Excel and select Data → Refresh All.
+    └── customer_satisfaction_raw.xlsx
 
-Power Query will automatically locate the raw data using:
-pProjectFolder\data\customer_satisfaction_raw.xlsx
+### Refreshing the Power Query Workflow
+
+The Excel dashboard uses Power Query to load and transform the raw customer satisfaction data. Follow these steps to configure the workflow on your computer.
+
+**First-time setup**
+
+1. Download or clone the complete Customer-Satisfaction-Analysis repository.
+2. Open Customer_Satisfaction_Dashboard.xlsx in desktop Excel.
+3. Navigate to Data → Get Data → Launch Power Query Editor.
+4. In Power Query Editor, select Home → Manage Parameters.
+5. Select pProjectFolder and update its value to the full local path of your downloaded Customer-Satisfaction-Analysis folder. For example: C:\Users\YourName\Documents\Customer-Satisfaction-Analysis. Do not include the data subfolder or the Excel filename in this parameter.
+6. Click OK, then return to Excel.
+7. Select Data → Refresh All to refresh the queries and update the dashboard.
+
+**Subsequent refreshes**
+Once configured, use Data → Refresh All whenever you want to refresh the workflow. If you move the project folder, update pProjectFolder to its new location.
+
+Important: Keep the data subfolder and raw data filename unchanged unless you also update the relevant Power Query source path. The workbook and raw data file must remain accessible on your computer.
 
 ### Dashboard
 The main dashboard provides a high-level view of customer satisfaction and purchasing performance.
