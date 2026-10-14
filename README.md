@@ -140,13 +140,13 @@ An initial keyword-based rule misclassified many comments (e.g. "Product was dis
 
 
 ## Key Findings
-•   Satisfaction and revenue show limited alignment: Only 1 of the top 10 highest-revenue products also ranks in the top 10 for satisfaction. Notably, the Samsung 55-inch      Smart TV and Lenovo ThinkPad Laptop are both top-10 revenue earners despite ranking in the bottom 10 for customer satisfaction — a disconnect worth                         investigating further, as these products carry more commercial risk than their satisfaction scores suggest.
+•   Satisfaction and revenue show limited alignment: Only 1 of the top 10 highest-revenue products also ranks in the top 10 for satisfaction. Notably, the Samsung 55-inch Smart TV and Lenovo ThinkPad Laptop are both           top-10 revenue earners despite ranking in the bottom 10 for customer satisfaction — a disconnect worth investigating further, as these products carry more commercial risk than their satisfaction scores suggest.
 •	The electronics department drove the highest total revenue.
 •	Average satisfaction sits at 3 out of 5, with only half of respondents saying they'd recommend the business
 •	The Northern Cape recorded the highest average satisfaction of any province
 •   The Nikon Mirrorless Camera was the top selling by units; instant noodles the lowest.
-•	Written comments and satisfaction ratings showed limited agreement: Only 38.0% of commented responses had sentiment matching the rating (blank comments            excluded). That is almost identical to the 37.8% expected if comments were assigned at random.
-•   Sentiment was spread evenly across ratings: Positive comments made up 65.1% of all comments, including 66.0% of Very Dissatisfied and 64.5% of Very Satisfied      respondents. Very Satisfied respondents were slightly more likely to leave a Negative comment (24.6%) than Very Dissatisfied respondents (22.0%).
+•	Written comments and satisfaction ratings showed limited agreement: Only 38.0% of commented responses had sentiment matching the rating (blank comments excluded). That is almost identical to the 37.8% expected if          comments were assigned at random.
+•   Sentiment was spread evenly across ratings: Positive comments made up 65.1% of all comments, including 66.0% of Very Dissatisfied and 64.5% of Very Satisfied respondents. Very Satisfied respondents were slightly more      likely to leave a Negative comment (24.6%) than Very Dissatisfied respondents (22.0%).
 
 **Implication** 
 Very Dissatisfied customers left comments such as "Excellent product" and "Highly recommend". This suggests the free-text field is not meaningfully linked to ratings in this dataset. This dataset is synthetic (generated with Python). Comments were assigned independently of satisfaction ratings, so agreement is close to what chance would produce. In a real dataset, this result would signal a data quality problem worth investigating. The Rating-Comment Agreement KPI and Comment Sentiment by Satisfaction Rating therefore demonstrate data validation checks rather than customer insights.
