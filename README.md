@@ -1,4 +1,4 @@
-# Customer-Satisfaction-Analysis
+# E-Commerce Customer Satisfaction & Data Quality Analysis
 An Excel-based customer satisfaction analysis project demonstrating data cleaning, transformation, exploratory analysis, KPI development, PivotTables, interactive dashboards, and business insight generation.
 
 ### Project Overview
