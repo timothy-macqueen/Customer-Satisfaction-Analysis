@@ -33,7 +33,7 @@ The project demonstrates an end-to-end data analysis workflow, from data prepara
 •	Data visualisation
 
 ### Data Preparation
-Data privacy: This project uses entirely synthetic data generated with Python and Faker. It does not contain real customer or personally identifiable information.
+**Data privacy:** This project uses entirely synthetic data generated with Python and Faker. It does not contain real customer or personally identifiable information.
 Power Query was used to prepare the dataset before analysis. The data-cleaning workflow included transforming and standardising fields, checking data types, preparing analytical fields, and creating additional variables required for reporting.
 The cleaned dataset was then used to build PivotTables, PivotCharts, KPI calculations, and the interactive dashboard.
 
