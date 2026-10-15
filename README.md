@@ -102,7 +102,7 @@ This analysis compares the percentage recommendation by customers with number of
 A rating–comment agreement check was used to assess whether customer satisfaction ratings were consistent with the sentiment expressed in customer comments, including those that made "No Comment".
 These checks help demonstrate that the analysis considered data quality and validation, rather than focusing solely on visualisation.
 
-**Comment Sentiment by Satisfaction Rating (% of commented responses. 7.6% of respondents left no comment, spread evenly across ratings)**
+**Comment Sentiment by Satisfaction Rating (% of commented responses. 7.6% of respondents left no comment, spread evenly across ratings):**
 This analysis compares numerical satisfaction ratings with customer sentiment to identify whether the two measures showed broadly consistent patterns or a mismatch.
 
 #### Data Notes
