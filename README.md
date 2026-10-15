@@ -83,8 +83,7 @@ The dashboard includes the following analyses:
 5.	Revenue by Department                                         
 6.	Average Satisfaction by Province
 
-Interactive slicers allow the analysis to be filtered by:
-Province and Department
+Interactive slicers allow the analysis to be filtered by: Province and Department
 
 ### Additional Data Quality Checks
 Additional analysis was performed separately from the main dashboard to assess the consistency and reliability of the survey data.
@@ -94,13 +93,12 @@ Additional analysis was performed separately from the main dashboard to assess t
 •	Comment Outcome, Share of all respondents
 •	Comment Sentiment by Satisfaction Rating
 
-Interactive slicers allow the analysis to be filtered by:
-Province and Department
+Interactive slicers allow the analysis to be filtered by: Province and Department
 
-**Recommendation Distribution**
+**Recommendation Distribution:**
 This analysis compares the percentage recommendation by customers with number of respondents to identify whether the majority of customers recommended the products and services of the e-commerce store. 
 
-**Comment Outcome, Share of all respondents**
+**Comment Outcome, Share of all respondents:**
 A rating–comment agreement check was used to assess whether customer satisfaction ratings were consistent with the sentiment expressed in customer comments, including those that made "No Comment".
 These checks help demonstrate that the analysis considered data quality and validation, rather than focusing solely on visualisation.
 
