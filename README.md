@@ -96,7 +96,7 @@ Additional analysis was performed separately from the main dashboard to assess t
 Interactive slicers allow the analysis to be filtered by: Province and Department
 
 **Recommendation Distribution:**
-This analysis compares the percentage recommendation by customers with number of respondents to identify whether the majority of customers recommended the products and services of the e-commerce store. 
+This analysis compares the percentage recommendation by customers with number of respondents to identify whether many customers recommended the products and services of the e-commerce store or not. 
 
 **Comment Outcome, Share of all respondents:**
 A rating–comment agreement check was used to assess whether customer satisfaction ratings were consistent with the sentiment expressed in customer comments, including those that made "No Comment".
@@ -137,7 +137,7 @@ An initial keyword-based rule misclassified many comments (e.g. "Product was dis
 - All data is synthetic, so findings illustrate analysis methods rather than real customer behaviour.
 
 ## Key Findings
-•   Satisfaction and revenue show limited alignment: Only 1 of the top 10 highest-revenue products also ranks in the top 10 for satisfaction. Notably, the Samsung 55-inch Smart TV and Lenovo ThinkPad Laptop are both           top-10 revenue earners despite ranking in the bottom 10 for customer satisfaction — a disconnect worth investigating further, as these products carry more commercial risk than their satisfaction scores suggest.
+•   Satisfaction and revenue show limited alignment: Only 1 of the top 10 highest-revenue products also ranks in the top 10 for satisfaction. Notably, the Samsung 55-inch Smart TV and Lenovo ThinkPad Laptop are both           top 10 revenue earners despite ranking in the bottom 10 for customer satisfaction — a disconnect worth investigating further, as these products carry more commercial risk than their satisfaction scores suggest.
 •	The electronics department drove the highest total revenue.
 •	Average satisfaction sits at 3 out of 5, with only half of respondents saying they'd recommend the business
 •	The Northern Cape recorded the highest average satisfaction of any province
