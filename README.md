@@ -60,9 +60,10 @@ The Excel dashboard uses Power Query to load and transform the raw customer sati
 7. Select Data → Refresh All to refresh the queries and update the dashboard.
 
 **Subsequent refreshes**
+
 Once configured, use Data → Refresh All whenever you want to refresh the workflow. If you move the project folder, update pProjectFolder to its new location.
 
-Important: Keep the data subfolder and raw data filename unchanged unless you also update the relevant Power Query source path. The workbook and raw data file must remain accessible on your computer.
+**Important:** Keep the data subfolder and raw data filename unchanged unless you also update the relevant Power Query source path. The workbook and raw data file must remain accessible on your computer.
 
 ### Dashboard
 The main dashboard provides a high-level view of customer satisfaction and purchasing performance.
