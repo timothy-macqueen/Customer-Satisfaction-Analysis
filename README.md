@@ -84,8 +84,7 @@ The dashboard includes the following analyses:
 6.	Average Satisfaction by Province
 
 Interactive slicers allow the analysis to be filtered by:
-•	Province
-•	Department
+Province and Department
 
 ### Additional Data Quality Checks
 Additional analysis was performed separately from the main dashboard to assess the consistency and reliability of the survey data.
@@ -96,8 +95,7 @@ Additional analysis was performed separately from the main dashboard to assess t
 •	Comment Sentiment by Satisfaction Rating
 
 Interactive slicers allow the analysis to be filtered by:
-•	Province
-•	Department
+Province and Department
 
 **Recommendation Distribution**
 This analysis compares the percentage recommendation by customers with number of respondents to identify whether the majority of customers recommended the products and services of the e-commerce store. 
@@ -130,15 +128,15 @@ The percentages are shares of the 7,710 commented respondents. See below:
 | Neutral | 1,500 ÷ 7,710 | 19.5% |
 | Dissatisfied + Very Dissatisfied | (1,562 + 1,554) ÷ 7,710 = 3,116 ÷ 7,710 | 40.4% |
 
-**Sentiment method**
+**Sentiment method:**
 An initial keyword-based rule misclassified many comments (e.g. "Product was disappointing" and "Delivery delayed" were labelled Neutral). Because the survey uses a small set of repeated phrases, each distinct comment was labelled manually (Positive, Negative or Neutral) in a lookup table (`Sentiment_Map`) and merged into the data in Power Query. New phrases after a refresh must be added to the map, otherwise they return null.
 
 **Limitations**
+
 - Sentiment labels are my own judgement, so borderline phrases (e.g. "Packaging could improve") could be labelled differently.
 - Neutral comments count as a Mismatch against Satisfied and Dissatisfied ratings. This is a deliberate, strict rule.
 - The comment field appears unrelated to ratings (see findings), so agreement reflects the dataset, not customer behaviour.
 - All data is synthetic, so findings illustrate analysis methods rather than real customer behaviour.
-
 
 ## Key Findings
 •   Satisfaction and revenue show limited alignment: Only 1 of the top 10 highest-revenue products also ranks in the top 10 for satisfaction. Notably, the Samsung 55-inch Smart TV and Lenovo ThinkPad Laptop are both           top-10 revenue earners despite ranking in the bottom 10 for customer satisfaction — a disconnect worth investigating further, as these products carry more commercial risk than their satisfaction scores suggest.
@@ -149,12 +147,12 @@ An initial keyword-based rule misclassified many comments (e.g. "Product was dis
 •	Written comments and satisfaction ratings showed limited agreement: Only 38.0% of commented responses had sentiment matching the rating (blank comments excluded). That is almost identical to the 37.8% expected if          comments were assigned at random.
 •   Sentiment was spread evenly across ratings: Positive comments made up 65.1% of all comments, including 66.0% of Very Dissatisfied and 64.5% of Very Satisfied respondents. Very Satisfied respondents were slightly more      likely to leave a Negative comment (24.6%) than Very Dissatisfied respondents (22.0%).
 
-**Implication** 
+**Implication:** 
 Very Dissatisfied customers left comments such as "Excellent product" and "Highly recommend". This suggests the free-text field is not meaningfully linked to ratings in this dataset. This dataset is synthetic (generated with Python). Comments were assigned independently of satisfaction ratings, so agreement is close to what chance would produce. In a real dataset, this result would signal a data quality problem worth investigating. The Rating-Comment Agreement KPI and Comment Sentiment by Satisfaction Rating therefore demonstrate data validation checks rather than customer insights.
 
 These findings demonstrate how raw customer survey data can be transformed into concise, decision-supporting insights.
 
-## Recommendations
+#### Recommendations
 •	Investigate products with below-average satisfaction. 
 •	Review customer feedback for recurring complaints. 
 •	Focus marketing on high-performing products. 
